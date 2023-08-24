@@ -27,7 +27,7 @@ export default function FormContact() {
                     name="name"
                     id="name"
                     autoComplete="name"
-                    className="block flex-1 border-0 bg-transparent p-3 lg:p-6 pl-1 text-gray-100 placeholder:text-gray-400 placeholder:lg:text-3xl placeholder:p-3 focus:ring-0 focus:p-4 focus:lg:text-3xl sm:leading-6 w-full"
+                    className="block flex-1 border-0 bg-transparent p-3 lg:p-6 pl-1 text-gray-100 placeholder:text-gray-400 placeholder:lg:text-2xl placeholder:p-3 focus:ring-0 focus:p-4 focus:lg:text-2xl sm:leading-6 w-full"
                     placeholder="Nome"
                   />
                 </div>
@@ -41,7 +41,7 @@ export default function FormContact() {
                     name="email"
                     id="email"
                     autoComplete="email"
-                    className="block flex-1 border-0 bg-transparent p-3 lg:p-6 pl-1 text-gray-100 placeholder:text-gray-400 placeholder:lg:text-3xl placeholder:p-3 focus:ring-0 focus:p-4 focus:lg:text-3xl sm:leading-6 w-full"
+                    className="block flex-1 border-0 bg-transparent p-3 lg:p-6 pl-1 text-gray-100 placeholder:text-gray-400 placeholder:lg:text-2xl placeholder:p-3 focus:ring-0 focus:p-4 focus:lg:text-2xl sm:leading-6 w-full"
                     placeholder="E-mail"
                   />
                 </div>
@@ -55,7 +55,7 @@ export default function FormContact() {
                     name="phone"
                     id="phone"
                     autoComplete="phone"
-                    className="block flex-1 border-0 bg-transparent p-3 lg:p-6 pl-1 text-gray-100 placeholder:text-gray-400 placeholder:lg:text-3xl placeholder:p-3 focus:ring-0 focus:p-4 focus:lg:text-3xl sm:leading-6 w-full"
+                    className="block flex-1 border-0 bg-transparent p-3 lg:p-6 pl-1 text-gray-100 placeholder:text-gray-400 placeholder:lg:text-2xl placeholder:p-3 focus:ring-0 focus:p-4 focus:lg:text-2xl sm:leading-6 w-full"
                     placeholder="Telefone (WhatsApp)"
                   />
                 </div>
@@ -68,7 +68,7 @@ export default function FormContact() {
                   id="message"
                   name="message"
                   rows={3}
-                  className="block w-full rounded-md border-0 p-3 text-gray-400 shadow-sm ring-1 ring-inset ring-gray-300 bg-transparent placeholder:p-3  placeholder:text-gray-400 placeholder:lg:text-3xl focus:p-3 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:leading-6"
+                  className="block w-full rounded-md border-0 p-3 text-gray-400 shadow-sm ring-1 ring-inset ring-gray-300 bg-transparent placeholder:p-3  placeholder:text-gray-400 placeholder:lg:text-2xl focus:p-3 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:leading-6"
                   placeholder={'Mensagem'}
                 />
               </div>
@@ -82,7 +82,7 @@ export default function FormContact() {
       <div className="mt-6 flex items-center justify-start gap-x-6">
         <button
           type="submit"
-          className="bg-green-600 rounded-xl block text-white lg:text-2xl uppercase px-10 sm:w-[35vw] lg:w-[30vw] py-5 sm:mt-10 mt-4 hover:bg-green-700 transition"
+          className="bg-green-600 rounded-xl block text-white lg:text-xl uppercase px-10 sm:w-[28vw] lg:w-[32vw] py-3 sm:mt-10 my-4 hover:bg-green-700 transition"
         >
           Fazer orçamento
         </button>
